@@ -25,6 +25,7 @@ end
 
 def return_string_array (array)
   counter = 0
+  new_array = []
   while counter < array.length do
     temp_var = array.shift.to_s
     new_array[-1] = temp_var
