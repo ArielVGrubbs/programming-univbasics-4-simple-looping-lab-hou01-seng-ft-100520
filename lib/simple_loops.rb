@@ -30,6 +30,6 @@ def return_string_array (array)
     temp_var = array.shift.to_s
     new_array.push temp_var
     counter += 1
-    return new_array
   end
+  return new_array
 end
