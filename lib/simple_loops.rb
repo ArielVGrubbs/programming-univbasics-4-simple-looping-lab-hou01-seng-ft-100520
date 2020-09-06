@@ -28,7 +28,7 @@ def return_string_array (array)
   new_array = []
   while counter < array.length do
     temp_var = array.shift.to_s
-    new_array[-1] = temp_var
+    new_array.push temp_var
     counter += 1
     return new_array
   end
